@@ -100,7 +100,7 @@ candidate_database = {
 people = ["Lane", "Ash", "Jo", "Kendall"]
 
 
-def get_people(w3):
+def get_people():
     """Display the database of Fintech Finders candidate information."""
     db_list = list(candidate_database.values())
 
@@ -283,7 +283,7 @@ if st.sidebar.button("Send Transaction"):
 
 # The function that starts the Streamlit application
 # Writes FinTech Finder candidates to the Streamlit page
-get_people()
+w3
 
 ################################################################################
 # Step 3: Inspect the Transaction
